@@ -97,6 +97,15 @@
 		/* Restaurant location */
 		font-size: 80%;
 	}
+	#restaurant-list td button,
+	#restaurant-list td [role="button"] {
+		box-sizing: border-box;
+		width: 40px;
+		height: 40px;
+		margin: 0;
+		padding: 8px;
+		border-radius: 50%;
+	}
 
 /* Footer */
 footer {
