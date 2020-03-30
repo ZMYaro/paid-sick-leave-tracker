@@ -70,13 +70,33 @@
 }
 
 /* Data table */
-#restaurant-list {
-	width: 100%;
-}
 #loading-placeholder td {
 	padding: 8rem 0;
 	text-align: center;
 }
+#restaurant-list {
+	width: 100%;
+	border-collapse: collapse;
+}
+	#restaurant-list th {
+		text-align: left;
+		font-weight: normal;
+		opacity: 0.8;
+	}
+	#restaurant-list tbody tr {
+		border-top: 1px solid rgba(0, 0, 0, 0.11);
+	}
+	#restaurant-list td img {
+		vertical-align: middle;
+	}
+	#restaurant-list td:nth-of-type(2) {
+		/* Restaurant name */
+		font-weight: bold;
+	}
+	#restaurant-list td:nth-of-type(3) {
+		/* Restaurant location */
+		font-size: 80%;
+	}
 
 /* Footer */
 footer {

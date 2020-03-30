@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Chick-fil-A",
+		"location": "(Chain)",
+		"status": "covidOnly",
+		"link": "https://www.chick-fil-a.com/corona-virus"
+	},
+	{
+		"name": "Osaka Sushi",
+		"location": "Rochester, NY",
+		"status": "closed",
+		"link": "https://osakasushirochester.com"
+	},
+	{
+		"name": "Popeyes",
+		"location": "(Chain)",
+		"status": "none",
+		"link": "https://www.popeyes.com/current-public-health-environment"
+	},
+	{
+		"name": "Wendy's",
+		"location": "(Chain)",
+		"status": "covidOnly",
+		"link": "https://www.squaredealblog.com/homewendys/2020/3/15/a-message-from-wendys-president-amp-ceo-todd-penegor-nbsp"
+	}
+]

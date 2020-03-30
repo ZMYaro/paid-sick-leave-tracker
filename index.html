@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 		
 		<script type="text/javascript" src="scripts/material-touch.js"></script>
+		<script type="text/javascript" src="scripts/list-loader.js"></script>
 	</head>
 	<body>
 		<header class="appBar z2">
@@ -57,8 +58,11 @@
 				</thead>
 				<tbody>
 					<tr id="loading-placeholder">
-							<progress class="circular">Loading...</progress>
 						<td colspan="4">
+							<noscript>This page uses JavaScript to load the list.  Please enable JavaScript.</noscript>
+							<script type="text/javascript">
+								document.write('<progress class="circular">Loading...</progress>');
+							</script>
 						</td>
 					</tr>
 				</tbody>
