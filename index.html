@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Restaurant Paid Sick Leave Tracker</title>
+		
+		<link rel="stylesheet" type="text/css" href="styles/material-elements.css" />
+		<link rel="stylesheet" type="text/css" href="styles/material-depth.css" />
+		<link rel="stylesheet" type="text/css" href="styles/material-widgets.css" />
+		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+		
+		<script type="text/javascript" src="scripts/material-touch.js"></script>
+	</head>
+	<body>
+		<header class="appBar z2">
+			Restaurant Paid Sick Leave Tracker
+		</header>
+		<section class="card z1">
+			<ul class="status-key">
+				<li>
+					<span class="status-swatch status-good">
+						<img src="images/good.svg" alt="Status good." />
+					</span>
+					= Paid sick leave for all workers
+				</li>
+				&nbsp;
+				<li>
+					<span class="status-swatch status-ok">
+						<img src="images/warn.svg" alt="Status warning." />
+					</span>
+					= Paid sick leave for cases of COVID-19
+				</li>
+				&nbsp;
+				<li>
+					<span class="status-swatch status-bad">
+						<img src="images/bad.svg" alt="Status bad." />
+					</span>
+					= No guaranteed paid sick leave
+				</li>
+			</ul>
+		</section>
+		<main class="card z1">
+			<table id="restaurant-list">
+				<thead>
+					<tr>
+						<th aria-label="Status"></th>
+						<th>Restaurant</th>
+						<th>Link</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="loading-placeholder">
+						<td colspan="3">
+							<progress class="circular">Loading...</progress>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<section class="card z1">
+			If information here is inaccuarate or out of date, please report the issue through <a href="TODO" target="_blank">this form</a>.
+		</section>
+		<footer>
+			Created by <a href="https://zmyaro.com" target="_blank">Zachary Yaro</a>.
+		</footer>
+	</body>
+</html>

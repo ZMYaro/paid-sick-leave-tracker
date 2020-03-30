@@ -1,0 +1,82 @@
+:root {
+	--status-good: #44bb99;
+	--status-ok: #eedd88;
+	--status-bad: #ee8866;
+	--corner-radius: 4px;
+}
+
+/* Layout stuff */
+.card {
+	border-radius: 0;
+	margin: 1px -16px;
+	padding: 0.5rem;
+	
+	transition-property: margin, padding, border-radius;
+	transition-duration: 0.2s;
+}
+	section.card:first-of-type {
+		margin-top: -16px;
+	}
+@media (min-width: 600px) {
+	.card {
+		margin-left: 8px;
+		margin-right: 8px;
+		padding: 1rem;
+	}
+	section.card:first-of-type {
+		margin-top: 0.5rem;
+		border-top-left-radius: var(--corner-radius);
+		border-top-right-radius: var(--corner-radius);
+	}
+	section.card:last-of-type {
+		margin-bottom: 0.5rem;
+		border-bottom-left-radius: var(--corner-radius);
+		border-bottom-right-radius: var(--corner-radius);
+	}
+}
+
+/* Colors/icons key */
+.status-good {
+	background-color: var(--status-good);
+}
+.status-ok {
+	background-color: var(--status-ok);
+}
+.status-bad {
+	background-color: var(--status-bad);
+}
+
+.status-key {
+	list-style-type: none;
+	text-align: center;
+}
+	.status-key li {
+		display: inline-block;
+		line-height: 32px;
+	}
+.status-swatch {
+	display: inline-block;
+	vertical-align: top;
+	width: 24px; 
+	height: 24px;
+	padding: 0;
+	margin: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.11);
+	border-radius: var(--corner-radius);
+}
+
+/* Data table */
+#restaurant-list {
+	width: 100%;
+}
+#loading-placeholder td {
+	padding: 8rem 0;
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	margin-top: 4rem;
+	text-align: center;
+	font-size: 80%;
+}
