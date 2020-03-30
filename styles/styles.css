@@ -1,7 +1,8 @@
 :root {
 	--status-good: #44bb99;
-	--status-ok: #eedd88;
+	--status-warn: #eedd88;
 	--status-bad: #ee8866;
+	--status-closed: #dddddd;
 	--corner-radius: 4px;
 }
 
@@ -39,11 +40,14 @@
 .status-good {
 	background-color: var(--status-good);
 }
-.status-ok {
-	background-color: var(--status-ok);
+.status-warn {
+	background-color: var(--status-warn);
 }
 .status-bad {
 	background-color: var(--status-bad);
+}
+.status-closed {
+	background-color: var(--status-closed);
 }
 
 .status-key {
