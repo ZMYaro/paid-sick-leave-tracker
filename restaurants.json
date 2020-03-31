@@ -5,24 +5,91 @@
 		"status": "warn",
 		"statusMessage": "Paid sick leave for COVID-19",
 		"link": "https://www.chick-fil-a.com/corona-virus"
-	},
-	{
+	}, {
+		"name": "Dunkin' Donuts",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://news.dunkindonuts.com/blog/dunkin-updates-coronavirus-covid19"
+	}, {
+		"name": "Five Guys",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.fiveguys.com/COVID-19-Statement"
+	}, {
+		"name": "KFC",
+		"location": "(Chain)",
+		"status": "good",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.yum.com/wps/portal/yumbrands/Yumbrands/news/press-releases/the+latest+on+yum+brands+response+to+the+coronavirus"
+	}, {
+		"name": "Longhorn Steakhouse",
+		"location": "(Chain)",
+		"status": "good",
+		"link": "https://www.darden.com/our-company/our-commitment-to-you#caring-for-those-who-care-for-you"
+	}, {
+		"name": "Mark's Pizzaria",
+		"location": "Rochester, NY",
+		"status": "bad"
+	}, {
+		"name": "Olive Garden",
+		"location": "(Chain)",
+		"status": "good",
+		"link": "https://www.darden.com/our-company/our-commitment-to-you#caring-for-those-who-care-for-you"
+	}, {
 		"name": "Osaka Sushi",
 		"location": "Rochester, NY",
 		"status": "closed",
 		"link": "https://osakasushirochester.com"
-	},
-	{
+	}, {
+		"name": "Panera",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.nrn.com/fast-casual/panera-implements-emergency-sick-pay-employees-announces-contactless-delivery-strategy"
+	}, {
+		"name": "Pizza Hut",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.yum.com/wps/portal/yumbrands/Yumbrands/news/press-releases/the+latest+on+yum+brands+response+to+the+coronavirus"
+	}, {
 		"name": "Popeyes",
 		"location": "(Chain)",
 		"status": "bad",
 		"link": "https://www.popeyes.com/current-public-health-environment"
-	},
-	{
+	}, {
+		"name": "Starbucks",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.nrn.com/news/starbucks-begins-offering-emergency-catastrophe-pay-during-coronavirus-pandemic"
+	}, {
+		"name": "Taco Bell",
+		"location": "(Chain)",
+		"status": "good",
+		"link": "https://www.abcactionnews.com/news/national-politics/taco-bell-offering-100-000-salaries-and-paid-sick-time-in-2020"
+	}, {
+		"name": "Trader Joe's",
+		"location": "(Chain)",
+		"status": "good",
+		"link": "https://www.traderjoes.com/announcement/coronavirus-update-how-trader-joes-is-caring-for-crew-members-and-customers"
+	}, {
+		"name": "Wegmans",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.wegmans.com/news-media/press-releases/wegmans-response-to-covid-19-2/"
+	}, {
 		"name": "Wendy's",
 		"location": "(Chain)",
 		"status": "warn",
 		"statusMessage": "Paid sick leave for COVID-19",
 		"link": "https://www.squaredealblog.com/homewendys/2020/3/15/a-message-from-wendys-president-amp-ceo-todd-penegor-nbsp"
+	}, {
+		"name": "Whole Foods",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave for COVID-19",
+		"link": "https://www.eater.com/2020/3/30/21199491/whole-foods-workers-protest-coronavirus-working-conditions-sick-out"
 	}
 ]
