@@ -71,11 +71,15 @@ function renderRestaurants(restaurantData) {
 		
 		// Add other fields.
 		nameCell.textContent = restaurant.name;
-		locationCell.textContent = restaurant.location;
-		linkCell.innerHTML =
-			'<a href="' + restaurant.link + '" target="_blank" role="button" title="More information">' +
-				ICON_STATEMENT_LINK +
-			'</a>';
+		if (restaurant.location) {
+			locationCell.textContent = restaurant.location;
+		}
+		if (restaurant.link) {
+			linkCell.innerHTML =
+				'<a href="' + restaurant.link + '" target="_blank" role="button" title="More information">' +
+					ICON_STATEMENT_LINK +
+				'</a>';
+		}
 		
 		// Assemble the row.
 		row.appendChild(statusCell);
