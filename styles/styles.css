@@ -12,6 +12,7 @@ body {
 
 /* Layout stuff */
 .card {
+	max-width: 800px;
 	border-radius: 0;
 	margin: 1px -16px;
 	padding: 0.5rem;
@@ -22,10 +23,10 @@ body {
 	section.card:first-of-type {
 		margin-top: -16px;
 	}
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.card {
-		margin-left: 8px;
-		margin-right: 8px;
+		margin-left: auto;
+		margin-right: auto;
 		padding: 1rem;
 	}
 	section.card:first-of-type {
@@ -56,6 +57,7 @@ body {
 
 .status-key {
 	list-style-type: none;
+	padding: 0;
 	text-align: center;
 }
 	.status-key li {

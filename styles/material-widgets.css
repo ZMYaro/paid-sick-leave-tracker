@@ -306,7 +306,7 @@ progress.circular::after,
 		background: transparent;
 	}
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	body {
 		padding-top: 72px; /* 56px toolbar + 16px padding */
 	}

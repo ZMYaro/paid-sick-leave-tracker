@@ -558,7 +558,7 @@ select:disabled {
 	cursor: not-allowed;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	body {
 		padding: 16px;
 	}
