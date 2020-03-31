@@ -6,6 +6,10 @@
 	--corner-radius: 4px;
 }
 
+body {
+	background-color: #e5e5e5;
+}
+
 /* Layout stuff */
 .card {
 	border-radius: 0;
@@ -70,6 +74,9 @@
 }
 
 /* Data table */
+main.card {
+	padding: 0;
+}
 #loading-placeholder td {
 	padding: 8rem 0;
 	text-align: center;
@@ -79,33 +86,47 @@
 	border-collapse: collapse;
 }
 	#restaurant-list th {
+		padding: 0.5em 0em;
 		text-align: left;
 		font-weight: normal;
 		opacity: 0.8;
 	}
+		#restaurant-list th:nth-of-type(1) {
+			/* Status heading */
+			padding-left: 0.5em;
+		}
 	#restaurant-list tbody tr {
 		border-top: 1px solid rgba(0, 0, 0, 0.11);
 	}
-	#restaurant-list td img {
-		vertical-align: middle;
-	}
-	#restaurant-list td:nth-of-type(2) {
-		/* Restaurant name */
-		font-weight: bold;
-	}
-	#restaurant-list td:nth-of-type(3) {
-		/* Restaurant location */
-		font-size: 80%;
-	}
-	#restaurant-list td button,
-	#restaurant-list td [role="button"] {
-		box-sizing: border-box;
-		width: 40px;
-		height: 40px;
-		margin: 0;
-		padding: 8px;
-		border-radius: 50%;
-	}
+		#restaurant-list td:nth-of-type(2) {
+			/* Restaurant name */
+			font-weight: bold;
+		}
+		#restaurant-list td:nth-of-type(3) {
+			/* Restaurant location */
+			font-size: 80%;
+		}
+		#restaurant-list td:nth-of-type(1) {
+			/* Status icon column */
+			padding-left: 0.5em;
+		}
+		#restaurant-list td:nth-of-type(4) {
+			/* Link icon column */
+			width: 40px;
+			padding-right: 0.5em;
+		}
+			#restaurant-list td button,
+			#restaurant-list td [role="button"] {
+				box-sizing: border-box;
+				width: 40px;
+				height: 40px;
+				margin: 0;
+				padding: 8px;
+				border-radius: 50%;
+			}
+			#restaurant-list td img {
+				vertical-align: middle;
+			}
 
 /* Footer */
 footer {

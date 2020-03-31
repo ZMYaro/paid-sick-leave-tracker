@@ -1,6 +1,6 @@
 'use strict';
 
-const ICON_STATEMENT_LINK = '<img src="images/open_in_new.svg" alt="Official statement." title="Official statement" />',
+const ICON_STATEMENT_LINK = '<img src="images/open_in_new.svg" alt="More information." />',
 	STATUS_CSS = {
 		good: 'status-good',
 		warn: 'status-warn',
@@ -42,17 +42,16 @@ async function loadRestaurants() {
 }
 
 function renderRestaurants(restaurantData) {
-	function makeStatusButton(status, statusMessage) {
-		statusMessage =
-			statusMessage ||
-			DEFAULT_STATUS_MESSAGES[status] ||
+	function makeStatusButton(restaurant) {
+		var statusMessage =
+			restaurant.statusMessage ||
+			DEFAULT_STATUS_MESSAGES[restaurant.status] ||
 			DEFAULT_STATUS_MESSAGES.undefined;
 		
 		var button = document.createElement('button');
 		button.title = statusMessage;
-		button.setAttribute('aria-label', statusMessage);
-		button.onclick = function () { alert(this.title); };
-		button.innerHTML = STATUS_ICONS[status] || '';
+		button.onclick = () => alert(restaurant.name + ': ' + statusMessage);
+		button.innerHTML = STATUS_ICONS[restaurant.status] || '';
 		return button;
 	}
 	
@@ -68,13 +67,13 @@ function renderRestaurants(restaurantData) {
 		
 		// Check status.
 		row.classList.add(STATUS_CSS[restaurant.status] || 'status-null');
-		statusCell.appendChild(makeStatusButton(restaurant.status, restaurant.statusMessage));
+		statusCell.appendChild(makeStatusButton(restaurant));
 		
 		// Add other fields.
 		nameCell.textContent = restaurant.name;
 		locationCell.textContent = restaurant.location;
 		linkCell.innerHTML =
-			'<a href="' + restaurant.link + '" target="_blank" role="button">' +
+			'<a href="' + restaurant.link + '" target="_blank" role="button" title="More information">' +
 				ICON_STATEMENT_LINK +
 			'</a>';
 		
