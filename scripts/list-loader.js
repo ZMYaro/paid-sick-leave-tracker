@@ -9,7 +9,7 @@ const ICON_STATEMENT_LINK = '<img src="images/open_in_new.svg" alt="More informa
 	},
 	DEFAULT_STATUS_MESSAGES = {
 		good: 'Paid sick leave guaranteed for all workers',
-		warn: 'Paid sick leave only for COVID-19, or varies by location',
+		warn: 'Paid sick leave only for COVID-19',
 		bad: 'No guaranteed paid sick leave',
 		closed: 'Closed until further notice',
 		undefined: 'No further information available at this time'

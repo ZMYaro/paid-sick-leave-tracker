@@ -1,10 +1,31 @@
 [
 	{
+		"name": "Applebee's",
+		"location": "(Chain)",
+		"status": "bad",
+		"statusMessage": "Paid sick leave for COVID-19, but not for franchise employees"
+	}, {
+		"name": "Burger King",
+		"location": "(Chain)",
+		"status": "bad",
+		"statusMessage": "Paid sick leave for COVID-19, but not for franchise employees",
+		"link": "https://www.bk.com/covid19-preparedness"
+	}, {
 		"name": "Chick-fil-A",
 		"location": "(Chain)",
 		"status": "warn",
-		"statusMessage": "Paid sick leave for COVID-19",
+		"statusMessage": "Paid sick leave for COVID-19; also, they support homophobic causes",
 		"link": "https://www.chick-fil-a.com/corona-virus"
+	}, {
+		"name": "Denny's",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.dennys.com/corona-virus"
+	}, {
+		"name": "DiBella's Subs",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.dibellas.com/coronavirus"
 	}, {
 		"name": "Dunkin' Donuts",
 		"location": "(Chain)",
@@ -31,6 +52,12 @@
 		"location": "Rochester, NY",
 		"status": "bad"
 	}, {
+		"name": "McDonald's",
+		"location": "(Chain)",
+		"status": "bad",
+		"statusMessage": "Paid sick leave for COVID-19, but not for franchise employees",
+		"link": "https://news.mcdonalds.com/news-releases/news-release-details/prioritizing-health-safety-and-community-mcdonalds-shares"
+	}, {
 		"name": "Olive Garden",
 		"location": "(Chain)",
 		"status": "good",
@@ -45,7 +72,7 @@
 		"location": "(Chain)",
 		"status": "warn",
 		"statusMessage": "Paid sick leave for COVID-19",
-		"link": "https://www.nrn.com/fast-casual/panera-implements-emergency-sick-pay-employees-announces-contactless-delivery-strategy"
+		"link": "https://www.panerabread.com/en-us/company/covid-19.html"
 	}, {
 		"name": "Pizza Hut",
 		"location": "(Chain)",
@@ -56,7 +83,13 @@
 		"name": "Popeyes",
 		"location": "(Chain)",
 		"status": "bad",
+		"statusMessage": "Paid sick leave for COVID-19, but not for franchise employees",
 		"link": "https://www.popeyes.com/current-public-health-environment"
+	}, {
+		"name": "Salvatore's Pizzeria",
+		"location": "Rochester, NY",
+		"status": "bad",
+		"link": "https://www.salvatores.com/safetyupdates"
 	}, {
 		"name": "Starbucks",
 		"location": "(Chain)",
@@ -64,15 +97,35 @@
 		"statusMessage": "Paid sick leave for COVID-19",
 		"link": "https://www.nrn.com/news/starbucks-begins-offering-emergency-catastrophe-pay-during-coronavirus-pandemic"
 	}, {
+		"name": "Subway",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.subway.com/en-us/SubCulture/coronavirus-and-your-safety"
+	}, {
 		"name": "Taco Bell",
 		"location": "(Chain)",
 		"status": "good",
 		"link": "https://www.abcactionnews.com/news/national-politics/taco-bell-offering-100-000-salaries-and-paid-sick-time-in-2020"
 	}, {
+		"name": "T.G.I. Fridays",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.indeed.com/cmp/T.g.i-Fridays/faq/what-is-t-g-i-fridays-sick-leave-policy-how-many-sick-days-do-you-get-per-year"
+	}, {
+		"name": "Tim Hortons",
+		"location": "(Chain)",
+		"status": "bad",
+		"link": "https://www.timhortons.com/important-information-about-the-current-public-health-environment"
+	}, {
 		"name": "Trader Joe's",
 		"location": "(Chain)",
 		"status": "good",
 		"link": "https://www.traderjoes.com/announcement/coronavirus-update-how-trader-joes-is-caring-for-crew-members-and-customers"
+	}, {
+		"name": "Walmart",
+		"location": "(Chain)",
+		"status": "warn",
+		"link": "https://corporate.walmart.com/newsroom/2020/03/10/new-covid-19-policy-to-support-the-health-of-our-associates"
 	}, {
 		"name": "Wegmans",
 		"location": "(Chain)",
