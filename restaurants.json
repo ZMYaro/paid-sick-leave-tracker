@@ -93,9 +93,8 @@
 	}, {
 		"name": "Starbucks",
 		"location": "(Chain)",
-		"status": "warn",
-		"statusMessage": "Paid sick leave for COVID-19",
-		"link": "https://www.nrn.com/news/starbucks-begins-offering-emergency-catastrophe-pay-during-coronavirus-pandemic"
+		"status": "good",
+		"link": "https://money.cnn.com/2018/01/24/news/companies/starbucks-new-tax-law/index.html"
 	}, {
 		"name": "Subway",
 		"location": "(Chain)",
