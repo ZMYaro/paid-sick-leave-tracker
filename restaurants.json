@@ -17,6 +17,12 @@
 		"statusMessage": "Paid sick leave for COVID-19; also, they support homophobic causes",
 		"link": "https://www.chick-fil-a.com/corona-virus"
 	}, {
+		"name": "Chipotle",
+		"location": "(Chain)",
+		"status": "warn",
+		"statusMessage": "Paid sick leave guaranteed for all workers on paper, but not always in practice",
+		"link": "https://www.reuters.com/article/us-health-coronavirus-chipotle/chipotle-under-pressure-in-new-york-over-coronavirus-sick-leave-idUSKBN21K3I8"
+	}, {
 		"name": "Denny's",
 		"location": "(Chain)",
 		"status": "bad",
